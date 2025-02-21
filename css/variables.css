@@ -1,7 +1,9 @@
 :root{
     --color-1: black;
+    --color-2: #FFFFFF;
 }
 
 @font-face{
-    
+    font-family: "robot-regular";
+    src: url(../storage/fonts/Roboto_Mono/RobotoMono-Regular.ttf);
 }

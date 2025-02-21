@@ -8,3 +8,27 @@
 body{
     background-color: var(--color-1)
 }
+
+.aqua{
+    display: flex;
+    position: relative;
+    width: 15%;
+    background-color: var(--color-2);
+    border-radius: 60px;
+    align-items: center;
+    height: 82px;
+    justify-content: center;
+    margin-left: -3%; 
+}
+.aqua img{
+    display: flex;
+}
+
+.aqua h1{
+    /* margin-left: 40%; */
+    font-size: 40px;
+    font-family: "robot-regular";
+    font-weight: 100;
+}
+
+
