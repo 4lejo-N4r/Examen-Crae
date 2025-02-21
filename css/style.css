@@ -77,6 +77,132 @@ body{
     
 }
 
+.Crae{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    width: 58%;
+    /* background-color: chocolate; */
+    align-items: center;
+
+}
+
+.gt{
+    align-self: last baseline;
+    top: 1000px;
+    height: 80%;
+}
+.Crae2{
+    display: flex;
+    position: relative;
+    top: 40px;
+    flex-direction: row;
+    gap: -10%;
+    /* background-color: rgb(63, 55, 49); */
+}
+
+.carts{
+    display: flex;
+    flex-direction: column;
+    /* gap: -110%; */
+    position: relative;
+    align-items: center;
+    justify-items: center;
+    left: 58%;
+    bottom: 400px;
+    /* background-color: aqua; */
+    width: 39%;
+}
+
+.carts button{
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 30px;
+    left: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 55%;
+    height: 65px;
+    border-radius: 50px;
+}
+
+.carts button p{
+    font-family: "robot-bold";
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.carts img{
+    height: 90%
+}
+
+.redes{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: relative;
+    width: 4%;
+    /* background-color: aqua; */
+    bottom: 600px;
+    left: 1220px;
+
+}
+
+.redes img{
+    height: 100%;
+    width: 100%;
+}
+
+.subtitle{
+    position: relative;
+    bottom: 700px;
+    width: 57%;
+    /* background-color:darkgreen; */
+}
+
+.subtitle h2{
+    font-weight: 500;
+    font-family: "robot-bold";
+    font-size: 57px;
+    color: var(--color-2);
+}
+
+.subtitle p{
+    position: relative;
+    bottom: 30px;
+    font-weight: 400;
+    font-family: "robot-bold";
+    font-size: 26px;
+    color: var(--color-2);
+}
+
+.play{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 630px;
+    left: 300px;
+    align-items: center;
+    justify-content: center;
+    /* background-color:steelblue; */
+    width: 55%;
+}
+.play h2{
+    color: var(--color-2);
+    text-align: center;
+    font-family: "robot-bold";
+    font-size: 58px;
+}
+.play p{
+    position: relative;
+    bottom: 40px;
+    color: var(--color-2);
+    text-align: center;
+    font-family: "robot-bold";
+    font-size: 36px;
+    font-weight: 400;
+}
 
 
 
