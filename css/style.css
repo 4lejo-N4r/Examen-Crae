@@ -12,23 +12,71 @@ body{
 .aqua{
     display: flex;
     position: relative;
-    width: 15%;
+    width: 13%;
     background-color: var(--color-2);
     border-radius: 60px;
     align-items: center;
-    height: 82px;
+    height: 50px;
     justify-content: center;
-    margin-left: -3%; 
+    margin-left: -2%; 
 }
 .aqua img{
     display: flex;
+    height: 30px;
 }
 
 .aqua h1{
     /* margin-left: 40%; */
-    font-size: 40px;
+    font-size: 28px;
     font-family: "robot-regular";
     font-weight: 100;
 }
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    gap: 70px;
+    width: 60%;
+    left: 22%;
+    top: -40px;
+    /* background-color:teal ; */
+}
+
+.menu p{
+    color: var(--color-2);
+    font-family: "robot-bold";
+    font-size: 17px
+}
+
+.linea{
+    position: absolute;
+    top: 50px;
+    height: 2.9%;
+}
+
+.linea2{
+    position: absolute;
+    top: 50px;
+}
+
+.limg{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    /* background-color: blue; */
+    width: 7%;
+    gap: 20px;
+    left: 1100px;
+    bottom: 55px;
+
+}
+
+.limg img{
+    height: 20px;
+    
+}
+
+
 
 
